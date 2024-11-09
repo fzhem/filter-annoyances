@@ -1,0 +1,11 @@
+! Title: fzhem Annoyances (Specific)
+! Expires: 1 day
+! Description: 
+! Homepage: https://github.com/fzhem/filter-annoyances
+! Licence: https://github.com/fzhem/filter-annoyances/blob/main/LICENSE
+!
+! GitHub issues: https://github.com/fzhem/filter-annoyances/issues
+! GitHub pull requests: https://github.com/fzhem/filter-annoyances/pulls
+! Pricespy reject all cookies
+pricespy.co.uk##+js(trusted-click-element, div[data-test="CookieBanner"] > button.outlinedbutton)
+pricespy.co.uk##+js(trusted-click-element, 'button.cGWXtA:nth-child(2)', 500)
