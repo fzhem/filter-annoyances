@@ -9,3 +9,11 @@
 ! Pricespy reject all cookies
 pricespy.co.uk##+js(trusted-click-element, div[data-test="CookieBanner"] > button.outlinedbutton)
 pricespy.co.uk##+js(trusted-click-element, 'button.cGWXtA:nth-child(2)', 500)
+! Remove userbenchmark from Google and Startpage results
+||*.userbenchmark.com^$all
+google.*###rso .MjjYud a[href*="userbenchmark.com"]:upward(.MjjYud)
+startpage.com##.w-gl .result:has(a[href*="userbenchmark.com"])
+! Remove versus.com from Google and Startpage results
+||*.versus.com^$all
+google.*###rso .MjjYud a[href*="versus.com"]:upward(.MjjYud)
+startpage.com##.w-gl .result:has(a[href*="versus.com"])
