@@ -27,3 +27,7 @@ startpage.com##.w-gl .result:has(a[href*="forbes.com/"][href*="/advisor"])
 
 ! Skyscanner accept essential only
 skyscanner.net##+js(trusted-click-element, button[data-tracking-element-id="cookie_banner_essential_only"])
+
+! Nisbets Essential only
+nisbets.co.uk##+js(trusted-click-element, #consent_prompt_manage)
+nisbets.co.uk##+js(trusted-click-element, #preferences_prompt_submit, , 500)
