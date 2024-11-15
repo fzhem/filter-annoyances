@@ -31,3 +31,6 @@ skyscanner.net##+js(trusted-click-element, button[data-tracking-element-id="cook
 ! Nisbets Essential only
 nisbets.co.uk##+js(trusted-click-element, #consent_prompt_manage)
 nisbets.co.uk##+js(trusted-click-element, #preferences_prompt_submit, , 500)
+
+! Google login dialogs on various pages
+||accounts.google.com/gsi/*$xhr,script,3p
