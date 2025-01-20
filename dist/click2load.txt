@@ -1,0 +1,17 @@
+! Title: fzhem Click2Load
+! Expires: 1 day
+! Description: 
+! Homepage: https://github.com/fzhem/filter-annoyances
+! Licence: https://github.com/fzhem/filter-annoyances/blob/main/LICENSE
+!
+! GitHub issues: https://github.com/fzhem/filter-annoyances/issues
+! GitHub pull requests: https://github.com/fzhem/filter-annoyances/pulls
+
+||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
+||scribd.com/embeds/$3p,frame,redirect=click2load.html
+||twitch.tv^$3p,frame,redirect=click2load.html
+||vimeo.com/event/$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
+||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
+||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
+||youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
+||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
